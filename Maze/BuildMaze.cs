@@ -30,25 +30,33 @@ namespace Maze
 
         private Color c;
 
-        public bool collide()
+        public int collide()
         {
             Point p = Mouse.GetState().Position;
             var end = new Rectangle(720, 400, 40, 40);
 
-            if (_map[(Mouse.GetState().Y / 40) * 20 + (Mouse.GetState().X / 40)] == 1)
+            var loc = (Mouse.GetState().Y / 40) * 20 + (Mouse.GetState().X / 40);
+
+            if (loc < 0 || loc > 239)
+            {
+                return -1;
+            }
+
+
+            if (_map[loc] == 1)
             {
                 c = Color.Red;
-                return true;
+                return 1;
             }
             else if (end.Contains(Mouse.GetState().X, Mouse.GetState().Y))
             {
                 c = Color.GreenYellow;
-                return true;
+                return 2;
             }
             else
             {
                 c = Color.White;
-                return false;
+                return 0;
             }
 
         }

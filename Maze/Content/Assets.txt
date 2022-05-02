@@ -1,1 +1,9 @@
 ﻿Ghost texture was made by Daniel Koutris
+background texutre was made by Daniel Ko
+Background texture provided by Nathan Bean for Game Architecture Example Project
+gamefont spritefont provided by Nathan Bean for Game Architecture Example Project
+menufont spritefont provided by Nathan Bean for Game Architecture Example Project
+gradient texture provided by Nathan Bean for Game Architecture Example Project
+firework explosion sound used with the mixkit License for non-commerical use and can be found here https://mixkit.co/license/#sfxFree
+error sound used with the mixkit License for non-commerical use and can be found here https://mixkit.co/license/#sfxFree
+Starry Night by Admiral Bob (c) copyright 2020 Licensed under a Creative Commons Attribution Noncommercial  (3.0) license. http://dig.ccmixter.org/files/admiralbob77/62843 Ft: snowflake
